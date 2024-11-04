@@ -1,0 +1,8 @@
+name: watchxr
+version: '${project.version}'
+main: org.xgaming.watchxr.Watchxr
+api-version: '1.21'
+commands:
+  sendEvent:
+    description: Send an event to PostHog
+    usage: /sendEvent <playerName> <eventName> [properties]
